@@ -1,6 +1,6 @@
 # Inheritance :
-# 2. Multilevel Inheritance
 
+# 2. Multilevel Inheritance
 
 # Define a superclass named "Vehicle"
 class Vehicle:
@@ -29,7 +29,6 @@ my_electric_car = ElectricCar("Tesla", "Model S", 2023, "Black", "100 kWh")
 
 # Print the description of the electric car
 print(my_electric_car.get_description())  # Output: 2023 Tesla Model S
-
 
 
 # In this example:

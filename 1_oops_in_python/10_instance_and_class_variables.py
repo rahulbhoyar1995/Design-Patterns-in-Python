@@ -1,10 +1,11 @@
 # Define a class named "Employee" to represent an employee object
+
 class Employee:
     num_of_employees = 0  # Class variable to store the total number of employees 
 
     def __init__(self, name, salary):
         # Instance variables representing attributes of each employee
-        self.name = name  # Instance variable: Name of the employee
+        self.name = name      # Instance variable: Name of the employee
         self.salary = salary  # Instance variable: Salary of the employee
 
         # Increment the total number of employees when a new instance is created
@@ -45,6 +46,7 @@ print("Total Number of Employees:", Employee.num_of_employees)  # Here num_of_em
 
 # Instance variables store data unique to each object, such as an employee's name and salary.
 # They represent the state of individual objects and are used to store object-specific data.
+
 # Uses of Class Variables:
 
 # Class variables are used to store data shared among all instances of a class, such as a count of the total number of objects created from the class.

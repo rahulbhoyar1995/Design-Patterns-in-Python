@@ -1,8 +1,9 @@
 # Define a class named "Product" to represent a product in an E-commerce system
+
 class Product:
     def __init__(self, name, price):
         # Public attributes accessible from outside the class
-        self.name = name  # Public attribute: Name of the product
+        self.name = name     # Public attribute: Name of the product
         self._price = price  # Protected attribute: Price of the product (indicated by single underscore)
 
     def get_price(self):
@@ -23,6 +24,7 @@ product1 = Product("Laptop", 1000)
 print("Product Name:", product1.name)
 
 # Accessing protected attribute (_price) directly
+
 # While Python allows accessing protected attributes, it is conventional to access them through getter and setter methods
 print("Product Price:", product1._price)
 
@@ -35,10 +37,14 @@ print("Product Price after 10% discount:", product1.get_price())
 
 # In this example:
 
-# Access Modifiers: The _price attribute is designated as protected by prefixing it with a single underscore. This convention indicates that _price should be considered a non-public attribute, and its access should be restricted to within the class or its subclasses. However, Python does not enforce this restriction, and accessing protected attributes directly is allowed.
+# Access Modifiers: 
+# 
+# The _price attribute is designated as protected by prefixing it with a single underscore. This convention indicates that _price should be considered a non-public attribute, and its access should be restricted to within the class or its subclasses. However, Python does not enforce this restriction, and accessing protected attributes directly is allowed.
 
 # Uses:
 
 # Public Attributes: Attributes such as name are accessible from outside the class and can be accessed directly.
+
 # Protected Attributes: Attributes such as _price are meant to be accessible only within the class or its subclasses. While Python allows direct access to protected attributes, it is a convention to access them through getter and setter methods for better encapsulation and abstraction.
+
 # By following access modifiers conventions, developers can effectively control the visibility and accessibility of class members, enhancing encapsulation and maintaining code integrity.

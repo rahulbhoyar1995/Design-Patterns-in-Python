@@ -22,6 +22,7 @@ student1 = Student("Alice", 20)
 student1.add_grade(85)
 student1.add_grade(90)
 student1.add_grade(75)
+student1.add_grade(100)
 
 # Attempting to directly access the private attribute '__grades' will result in an AttributeError
 # print(student1.__grades)

@@ -1,4 +1,6 @@
 # Inheritance :
+
+
 # 1. Single Inheritance
 
 # Define a superclass named "Vehicle"

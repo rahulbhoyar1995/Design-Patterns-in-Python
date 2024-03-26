@@ -4,13 +4,11 @@ class Animal:
         # Method: Define a generic sound for all animals
         pass
 
-
 # Define a subclass named "Dog" inheriting from "Animal"
 class Dog(Animal):
     def make_sound(self):
         # Method: Define a specific sound for dogs
         return "Woof!"
-
 
 # Define another subclass named "Cat" inheriting from "Animal"
 class Cat(Animal):
@@ -18,12 +16,10 @@ class Cat(Animal):
         # Method: Define a specific sound for cats
         return "Meow!"
 
-
 # Define a function that accepts any object of the "Animal" superclass
 def animal_sound(animal):
     # Method: Call the "make_sound" method of the given animal object
     return animal.make_sound()
-
 
 # Create instances of the "Dog" and "Cat" classes
 dog = Dog()

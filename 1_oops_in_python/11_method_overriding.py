@@ -1,4 +1,5 @@
 # Method overriding :
+
 # It is a concept in object-oriented programming where a subclass provides a specific implementation of a method that is already defined in its superclass. 
  
 # This allows the subclass to customize or extend the behavior of inherited methods. 
@@ -45,14 +46,17 @@ print(f"Fixed Deposit Interest: ${fixed_deposit_interest}")
 # In this example:
 
 # We have a superclass named FinancialInstrument representing a generic financial instrument with an __init__ method to initialize the principal amount and interest rate, and a calculate_interest method to calculate the interest based on the principal and rate.
+
 # We define two subclasses, SavingsAccount and FixedDeposit, representing specific types of financial instruments (e.g., savings account and fixed deposit).
+
 # Each subclass overrides the calculate_interest method with a specific implementation tailored to its type of financial instrument. For example, the SavingsAccount class calculates monthly interest, while the FixedDeposit class calculates annual interest.
+
 # When we instantiate objects of the SavingsAccount and FixedDeposit classes and call the calculate_interest method on them, the overridden method in each subclass is executed, providing the specific interest calculation for each type of financial instrument.
-
-
 
 # Uses of Method Overriding:
 
 # Customize behavior: Method overriding allows subclasses to provide custom implementations of methods inherited from superclasses, enabling customization of behavior based on specific requirements.
+
 # Enhance functionality: Subclasses can extend or enhance the functionality of inherited methods by providing additional logic or features.
+
 # Polymorphism: Method overriding facilitates polymorphism, where objects of different classes can be treated interchangeably based on their common superclass. This promotes code flexibility and reusability.

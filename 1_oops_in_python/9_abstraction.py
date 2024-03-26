@@ -1,4 +1,10 @@
-# Abstraction in Python involves hiding the complex implementation details of a class while providing a simple interface for interacting with it. This allows programmers to focus on using the class without worrying about its internal complexities. Abstraction is essential for creating clean and maintainable code by promoting separation of concerns and reducing dependencies.
+# Abstraction : 
+
+# Abstraction in Python involves hiding the complex implementation details of a class while providing a simple interface for interacting with it. 
+
+# This allows programmers to focus on using the class without worrying about its internal complexities. 
+
+# Abstraction is essential for creating clean and maintainable code by promoting separation of concerns and reducing dependencies.
 
 from abc import ABC, abstractmethod
 
@@ -60,6 +66,11 @@ print(f"{circle.name} Circumference:", circle.perimeter())  # Output: Circle Cir
 # In this example:
 
 # The Shape class is an abstract base class defining common methods area and perimeter that all shapes should implement. This class hides the implementation details of these methods, allowing concrete subclasses to provide their own implementations.
+
 # The Rectangle and Circle classes are concrete subclasses of Shape that implement specific shapes. They provide their own implementations of area and perimeter methods, hiding the details of calculations internally.
+
 # The Rectangle and Circle classes expose only the essential features (area and perimeter methods) to the users, abstracting away the implementation details. Users can interact with these classes without knowing how the area and perimeter calculations are performed internally.
-# Abstraction helps in promoting code reuse, reducing complexity, and enhancing maintainability by separating the interface from the implementation. It allows programmers to work with high-level concepts (shapes in this case) without getting bogged down by low-level details.
+
+# Abstraction helps in promoting code reuse, reducing complexity, and enhancing maintainability by separating the interface from the implementation. 
+
+# It allows programmers to work with high-level concepts (shapes in this case) without getting bogged down by low-level details.
