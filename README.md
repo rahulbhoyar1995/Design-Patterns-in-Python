@@ -6,3 +6,4 @@ Explore Python implementations of classic design patterns for efficient and scal
 ## Contents :
 1. OOPS in Python
 2. SOLID Design Principles
+3. Builder Pattern
