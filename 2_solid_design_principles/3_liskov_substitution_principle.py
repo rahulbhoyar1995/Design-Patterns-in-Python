@@ -1,5 +1,5 @@
-# The Liskov Substitution Principle (LSP) is a fundamental concept in object-oriented programming that states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. In simpler terms, it means that a subclass should behave in such a way that it can be substituted for its superclass without altering the desired behavior of the program.
-
+# The Liskov Substitution Principle (LSP) 
+# It is a fundamental concept in object-oriented programming that states that objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program. In simpler terms, it means that a subclass should behave in such a way that it can be substituted for its superclass without altering the desired behavior of the program.
 
 class Rectangle:
     def __init__(self, width, height):
