@@ -1,4 +1,18 @@
 # Interface Segregation principle
+The Interface Segregation Principle (ISP) is one of the five SOLID principles of object-oriented programming. It states that clients should not be forced to depend on interfaces they do not use. In simpler terms, it suggests that it's better to have multiple specific interfaces for different parts of a system rather than a single large interface that covers everything.
+
+Let's break it down:
+
+# Interfaces: In programming, an interface defines a contract for classes. It specifies what methods a class should have, but not how those methods should be implemented.
+# Clients: In the context of ISP, "clients" are the classes or modules that use interfaces.
+# Depend: When a class or module depends on an interface, it means that it relies on that interface to provide certain functionality.
+# Forced: This means that the client is required to implement or use certain parts of an interface, even if it doesn't need them.
+# Segregation: This term refers to separating or dividing. In the context of ISP, it means splitting interfaces into smaller, more specific parts.
+# So, the Interface Segregation Principle suggests that instead of having one large interface that covers everything, it's better to have several smaller interfaces that are tailored to specific use cases. This way, clients can depend only on the interfaces that they actually need, rather than being forced to depend on unnecessary methods or functionality.
+
+# For example, imagine you have an interface called Worker with methods like work() and eat(). If some classes only need to work() and don't care about eat(), they shouldn't be forced to implement or depend on the eat() method. Instead, you could have separate interfaces like Workable and Eatable, allowing classes to depend only on what they need.
+
+# Following ISP helps keep codebases modular, maintainable, and easier to understand and modify. It also reduces the likelihood of unintended consequences when making changes to interfaces or implementations.
 
 from abc import abstractmethod, ABC
 
