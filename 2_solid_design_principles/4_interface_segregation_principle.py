@@ -1,7 +1,7 @@
 # Interface Segregation principle
-The Interface Segregation Principle (ISP) is one of the five SOLID principles of object-oriented programming. It states that clients should not be forced to depend on interfaces they do not use. In simpler terms, it suggests that it's better to have multiple specific interfaces for different parts of a system rather than a single large interface that covers everything.
+#The Interface Segregation Principle (ISP) is one of the five SOLID principles of object-oriented programming. It states that clients should not be forced to depend on interfaces they do not use. In simpler terms, it suggests that it's better to have multiple specific interfaces for different parts of a system rather than a single large interface that covers everything.
 
-Let's break it down:
+#Let's break it down:
 
 # Interfaces: In programming, an interface defines a contract for classes. It specifies what methods a class should have, but not how those methods should be implemented.
 # Clients: In the context of ISP, "clients" are the classes or modules that use interfaces.
